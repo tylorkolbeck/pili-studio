@@ -1,0 +1,19 @@
+.twoColumn {
+
+  // display: flex;
+  div {
+    flex-grow: 1;
+  }
+}
+
+
+.left {}
+
+.right {}
+
+
+@media (min-width: 700px) {
+  .twoColumn {
+    display: flex;
+  }
+}
