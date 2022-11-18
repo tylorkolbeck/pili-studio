@@ -1,0 +1,19 @@
+.homeHero {
+
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+  margin-top: 50%;
+}
+
+.homeHero_Gif {
+  margin: 0 auto;
+  max-width: 100%;
+}
+
+.gifWrapper {
+  margin: 0 auto;
+  display: flex;
+  justify-content: center;
+}

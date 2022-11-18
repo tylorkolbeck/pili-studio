@@ -1,19 +1,22 @@
 .twoColumn {
+  height: 100%;
 
-  // display: flex;
   div {
     flex-grow: 1;
   }
 }
 
 
-.left {}
+.left {
+  height: 100%;
+}
 
 .right {}
 
 
 @media (min-width: 700px) {
   .twoColumn {
-    display: flex;
+    display: grid;
+    grid-template-columns: 1fr 1fr;
   }
 }
