@@ -51,6 +51,7 @@ export default function Home() {
           <Text size="1.8rem" fontFamily='proxima-nova' color='light' styles={{ wordWrap: 'break-word', letterSpacing: '0.5rem', textUnderlineOffset: '0.2rem' }} bold center underline>SCHEDULE</Text>
         </div>
       </section>
+
     </>
   )
 }

@@ -4,8 +4,6 @@
   grid-template-columns: 1fr 1fr;
   gap: 2rem;
   margin: 3rem;
-  margin-right: 0px;
-  margin-top: 6rem;
 }
 
 .doubleImage>div img {
@@ -37,5 +35,10 @@
   .twoColumn {
     display: grid;
     grid-template-columns: 1fr 1fr;
+  }
+
+  .doubleImage {
+    margin-right: 0px;
+    margin-top: 6rem;
   }
 }
