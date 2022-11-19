@@ -97,15 +97,15 @@ export default function MenuFullScreen(props: MenuFullScreenProps) {
         <ul className={classNames(styles.menuItems, 'no-style', 'upper')}>
           <TransitionGroup>
             {
-              menuItems.map((item: any, index) => (
-                <CSSTransition nodeRef={item.nodeRef} in={props.isOpen} timeout={duration} key={item.id}>
-                  {state => <li
-                    style={{
-                      ...defaultStyle,
-                      ...transitionStyles[state]
-                    }}
-                    ref={item.nodeRef} >{item.text}</li>}
-                </CSSTransition>
+              menuItemsData.map((item: any) => (
+                // <CSSTransition nodeRef={item.nodeRef} in={props.isOpen} timeout={duration} key={item.id}>
+                <li
+                  style={{
+                    // ...defaultStyle,
+                    // ...transitionStyles[state]
+                  }}
+                  ref={item.nodeRef} >{item.text}</li>
+                // </CSSTransition>
               ))
             }</TransitionGroup>
         </ul>

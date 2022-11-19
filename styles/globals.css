@@ -3,6 +3,13 @@
   --color-primary: #2E2D2A;
   --color-secondary: #A99176;
   --font-common: "proxima-nova";
+  --color-light: #DFDBCF
+}
+
+@font-face {
+  font-family: 'HVMuse';
+  src: url("/fonts/HVMuse/HV-Muse-Regular.woff2") format('woff2');
+  font-display: swap;
 }
 
 html,

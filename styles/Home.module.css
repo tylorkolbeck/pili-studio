@@ -1,0 +1,41 @@
+/* SECTION TWO */
+.doubleImage {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  gap: 2rem;
+  margin: 3rem;
+  margin-right: 0px;
+  margin-top: 6rem;
+}
+
+.doubleImage>div img {
+  max-width: 100%;
+  height: 100%;
+  object-fit: cover;
+}
+
+.sectionTwoRight {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.sectionTwoRight p {
+  margin: 0;
+}
+
+/* SECITON THREE */
+.marketSchedule {
+  height: 75vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+@media (min-width: 700px) {
+  .twoColumn {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+  }
+}

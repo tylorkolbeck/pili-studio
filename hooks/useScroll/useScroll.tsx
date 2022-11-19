@@ -14,13 +14,13 @@ function useScroll() {
         setScrolling(true)
       }
 
-      setScrollTop(currentPosition <= 1 ? 0 : currentPosition)
+      setScrollTop(currentPosition <= 5 ? 0 : currentPosition)
 
-      if (scrollTop > 0) {
+      if (scrollTop > 5) {
         setIsScrolled(true)
       }
 
-      if (scrollTop < 1) {
+      if (scrollTop < 5) {
         setIsScrolled(false)
       }
     }
